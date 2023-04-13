@@ -16,7 +16,7 @@ public class HolaMundoController {
     System.out.println(mensaje);
         return "Hola mundo como estas";
     }
-    @GetMapping("/boostrap")
+    @GetMapping("/")
     public String boostrap(){
 return """
         <!doctype html>
